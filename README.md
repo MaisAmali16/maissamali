@@ -15,7 +15,7 @@ The work presented here reflects how I approach design and development through t
 ## Live Site
 
 The portfolio is published using GitHub Pages and can be viewed here:  
-👉 **[[Add your live portfolio URL here](https://maisamali16.github.io/maissamali/)]**
+👉 **[(https://maisamali16.github.io/maissamali/)]**
 
 ## Technologies
 
