@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maiss Amali — Portfolio</title>
+  <meta name="description" content="Maiss Amali — UX/UI and product developer. Portfolio of selected projects." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Manrope:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#intro">Skip to content</a>
+
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#intro" aria-label="Go to introduction">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Maiss Amali</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#intro">About</a>
+
+        <!-- Only the dropdown (no duplicate Projects link) -->
+        <details class="dropdown">
+          <summary class="dropdown-summary" aria-label="Open projects menu">Projects ▾</summary>
+          <div class="dropdown-panel" role="menu" aria-label="Projects menu">
+            <a role="menuitem" href="#studybuddy">StudyBuddy</a>
+            <a role="menuitem" href="#coinland">CoinLand</a>
+            <a role="menuitem" href="#pulse-canvas">Pulse Canvas</a>
+            <a role="menuitem" href="#neighborgoods">NeighborGoods</a>
+            <a role="menuitem" href="#dino-voyage">Dino Voyage</a>
+          </div>
+        </details>
+
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn-small btn-ghost" href="assets/Maiss-Amali-Resume.pdf" target="_blank" rel="noreferrer noopener">
+        View Resume
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- INTRO -->
+    <section id="intro" class="section intro">
+      <div class="container center">
+        <p class="kicker">UX/UI &amp; Product Developer</p>
+        <h1 class="headline">Maiss Amali</h1>
+
+        <p class="summary">
+          I’m Maiss Amali, a UX/UI and product developer. I enjoy designing and building things that live on the screen,
+          creating interfaces that feel intentional, balanced, and clear. This portfolio is a focused selection of projects
+          that show how I approach ideas, decisions, and execution across design and development.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="work" class="section">
+      <div class="container center">
+        <h2 class="section-title">Projects</h2>
+
+        <!-- StudyBuddy -->
+        <article id="studybuddy" class="project">
+          <header class="project-header">
+            <h3 class="project-title">StudyBuddy</h3>
+            <p class="project-tag">UX · Gamified habit-building</p>
+
+            <p class="project-desc">
+              StudyBuddy is a Tomodachi-style mobile app that helps students build better study habits by linking academic activity
+              to the wellbeing of a virtual pet. When users log study sessions, their pet gains energy and levels up—turning effort
+              into visible progress. Goals, gentle reminders, streaks, and rewards are designed to keep momentum without feeling
+              strict or overwhelming. Pets evolve based on the subjects a user studies, making each one feel personal while still
+              grounded in real study routines.
+            </p>
+          </header>
+
+          <div class="media-frame">
+            <div class="phone-row" aria-label="StudyBuddy screens">
+              <figure class="phone">
+                <img src="assets/images/studybuddy/studybuddy-screen-1.png" alt="StudyBuddy screen 1" loading="lazy">
+              </figure>
+              <figure class="phone">
+                <img src="assets/images/studybuddy/studybuddy-screen-2.png" alt="StudyBuddy screen 2" loading="lazy">
+              </figure>
+              <figure class="phone">
+                <img src="assets/images/studybuddy/studybuddy-screen-3.png" alt="StudyBuddy screen 3" loading="lazy">
+              </figure>
+              <figure class="phone">
+                <img src="assets/images/studybuddy/studybuddy-screen-4.png" alt="StudyBuddy screen 4" loading="lazy">
+              </figure>
+            </div>
+
+            <div class="below-media">
+              <a class="btn btn-teal"
+                 href="https://www.figma.com/proto/3lAiT2ZwFHC3BZLcdLgOZd/StudyBuddy_HiFi?node-id=2-4&t=1goh7hReIJ3eRfE3-1&starting-point-node-id=2%3A4&show-proto-sidebar=1"
+                 target="_blank" rel="noreferrer noopener">
+                View Project
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- CoinLand -->
+        <article id="coinland" class="project">
+          <header class="project-header">
+            <h3 class="project-title">CoinLand</h3>
+            <p class="project-tag">Hackathon · Financial literacy game</p>
+
+            <p class="project-desc">
+              CoinLand is an educational stock-market simulation game designed to help children (ages 7–12) build financial literacy and confidence with money. 
+              The experience simplifies complex ideas such as budgeting, investing, and market behavior into approachable, interactive systems grounded in real-world companies. 
+              Players make decisions, track progress, and manage resources within a controlled market environment shaped by in-game news and player activity. 
+              Game elements like customization, rewards, and a virtual space are used intentionally to motivate learning and reinforce positive financial habits, creating a safe and engaging introduction to real-world money concepts.
+            </p>
+          </header>
+
+          <div class="media-frame">
+            <!-- NOTE: Use the YouTube EMBED format, not the youtu.be share link -->
+            <div class="embed">
+              <iframe
+                src="https://www.youtube.com/embed/gdbJC73wLPY"
+                title="CoinLand walkthrough video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
+            </div>
+
+            <div class="below-media actions">
+              <a class="btn btn-teal" href="https://github.com/NightingaleX03/Ellehacks2026" target="_blank" rel="noreferrer noopener">
+                View GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Pulse Canvas -->
+        <article id="pulse-canvas" class="project">
+          <header class="project-header">
+            <h3 class="project-title">Pulse Canvas</h3>
+            <p class="project-tag">Interactive · Generative visuals</p>
+
+            <p class="project-desc">
+              Pulse Canvas is an interactive experience where technology transforms emotional signals into visual art during a reflective two-person conversation. 
+              Each session produces a unique generative artwork shaped by rhythm, intensity, and interaction. By responding to heart rate, vocal dynamics, and facial cues, 
+              the system visualizes interpersonal signals as abstract forms, allowing participants to sense the other person’s presence in a nonverbal, shared way. 
+              The goal is not to diagnose emotion, but to create a calmer space for listening, empathy, and awareness.
+            </p>
+          </header>
+
+          <div class="media-frame">
+            <div class="image-grid" aria-label="Pulse Canvas screenshots">
+              <figure class="shot">
+                <img src="assets/images/pulse-canvas/pulse-canvas-1.png" alt="Pulse Canvas screenshot 1" loading="lazy">
+              </figure>
+              <figure class="shot">
+                <img src="assets/images/pulse-canvas/pulse-canvas-2.png" alt="Pulse Canvas screenshot 2" loading="lazy">
+              </figure>
+            </div>
+
+            <div class="below-media">
+              <a class="btn btn-teal" href="https://maisamali16.github.io/pulse-canvas/" target="_blank" rel="noreferrer noopener">
+                View Project
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- NeighborGoods -->
+        <article id="neighborgoods" class="project">
+          <header class="project-header">
+            <h3 class="project-title">NeighborGoods</h3>
+            <p class="project-tag">Web · Community lending</p>
+
+            <p class="project-desc">
+              NeighborGoods is a community lending website built around a practical alternative to overconsumption: borrow what you need
+              instead of constantly buying new. The project makes the “library economy” feel approachable by combining clear structure,
+              friendly tone, and easy navigation. It connects individual convenience (saving money and accessing items) with a broader
+              outcome (reducing waste), presenting sustainability as something usable in everyday life rather than a distant ideal.
+            </p>
+          </header>
+
+          <div class="media-frame">
+            <div class="image-grid" aria-label="NeighborGoods screenshots">
+              <figure class="shot">
+                <img src="assets/images/neighborgoods/neighborgoods-1.png" alt="NeighborGoods screenshot 1" loading="lazy">
+              </figure>
+              <figure class="shot">
+                <img src="assets/images/neighborgoods/neighborgoods-2.png" alt="NeighborGoods screenshot 2" loading="lazy">
+              </figure>
+            </div>
+
+            <div class="below-media">
+              <a class="btn btn-teal"
+                 href="https://sites.google.com/my.yorku.ca/neighborgoods/home?authuser=0"
+                 target="_blank" rel="noreferrer noopener">
+                View Project
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Dino Voyage -->
+        <article id="dino-voyage" class="project">
+          <header class="project-header">
+            <h3 class="project-title">Dino Voyage</h3>
+            <p class="project-tag">Max/MSP · Audio-visual story</p>
+
+            <p class="project-desc">
+              Dino Voyage is an audio-visual narrative created in Max/MSP, centered on “The Quest for the Ultimate Plant-based Planet.”
+              Max was chosen because it lets sound and visuals behave like one system: rhythm, timing, and texture can shape motion and
+              atmosphere in real time. The piece is built to feel cohesive and playful, where audio cues and visual changes reinforce each
+              other so the story lands through synchronized moments, pacing, and mood.
+            </p>
+          </header>
+
+          <div class="media-frame">
+            <video class="video" controls preload="metadata">
+              <source src="assets/videos/max/dino-voyage.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <div class="below-media">
+              <span class="hint">Video documentation (embedded)</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container center">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">
+          If you’d like to work together, collaborate, or talk about opportunities, feel free to reach out.
+        </p>
+
+        <div class="contact-icons" role="list">
+          <!-- Email -->
+          <a class="icon-card" role="listitem"
+             href="mailto:maisamali9898@gmail.com"
+             aria-label="Email Maiss Amali">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M4 7.5C4 6.12 5.12 5 6.5 5h11C18.88 5 20 6.12 20 7.5v9c0 1.38-1.12 2.5-2.5 2.5h-11C5.12 19 4 17.88 4 16.5v-9Z" stroke="currentColor" stroke-width="1.5"/>
+                <path d="m6.5 7.5 5.5 4 5.5-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div class="icon-text">
+              <span class="icon-title">Email</span>
+              <span class="icon-sub">maisamali9898@gmail.com</span>
+            </div>
+          </a>
+
+          <!-- LinkedIn -->
+          <a class="icon-card" role="listitem"
+             href="https://www.linkedin.com/in/maiss-am-ali"
+             target="_blank"
+             rel="noreferrer noopener"
+             aria-label="Open Maiss Amali LinkedIn in a new tab">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M6.5 9.5V18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M6.5 6.75h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                <path d="M10.5 18v-4.4c0-2.3 3-2.5 3-.2V18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M13.5 13.2c0-2.8 4-2.9 4 0V18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <div class="icon-text">
+              <span class="icon-title">LinkedIn</span>
+              <span class="icon-sub">www.linkedin.com/in/maiss-am-ali</span>
+            </div>
+          </a>
+
+          <!-- GitHub -->
+          <a class="icon-card" role="listitem"
+             href="https://github.com/MaisAmali16"
+             target="_blank"
+             rel="noreferrer noopener"
+             aria-label="Open Maiss Amali GitHub in a new tab">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M9.2 19.2c-3 .9-3-1.5-4.2-1.8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M15 21v-2.4c0-.7.2-1.2.6-1.6 2.1-.2 4.3-1.1 4.3-5.1 0-1.1-.4-2.1-1.1-2.8.1-.3.5-1.4-.1-2.8 0 0-.9-.3-2.9 1.1-.8-.2-1.7-.3-2.6-.3s-1.8.1-2.6.3C7.6 6.1 6.7 6.4 6.7 6.4c-.6 1.4-.2 2.5-.1 2.8-.7.7-1.1 1.7-1.1 2.8 0 4 2.2 4.9 4.3 5.1.3.3.5.8.5 1.4V21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div class="icon-text">
+              <span class="icon-title">GitHub</span>
+              <span class="icon-sub">github.com/MaisAmali16</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="resume-row">
+          <a class="btn btn-primary" href="assets/Maiss-Amali-Resume.pdf" target="_blank" rel="noreferrer noopener">
+            View Resume (PDF)
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container center footer-inner">
+      <p>© 2026 Maiss Amali</p>
+      <p class="footer-note">Built with HTML + CSS.</p>
+    </div>
+  </footer>
+</body>
+</html>
